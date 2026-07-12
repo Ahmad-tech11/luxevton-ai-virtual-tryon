@@ -234,8 +234,10 @@ Your support motivates me to build more innovative AI-powered applications.
 
 # 📬 Contact
 
-If you'd like to collaborate, provide feedback, or discuss this project, feel free to connect with me through **GitHub** or **LinkedIn**.
+If you'd like to collaborate, provide feedback, or discuss this project, feel free to connect with me.
 
+- **GitHub:** :contentReference[oaicite:0]{index=0}
+- **LinkedIn:** :contentReference[oaicite:1]{index=1}
 ---
 
 <p align="center">
