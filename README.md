@@ -1,61 +1,53 @@
 # 👔 LUXEVTON – AI Virtual Try-On Fashion Ecommerce
 
 <p align="center">
-  <img src="./screenshots/Homepage2.jpg" width="100%" alt="LUXEVTON Banner">
+  <img src="./screenshots/Homepage2.jpeg" alt="LUXEVTON Banner" width="100%">
 </p>
 
+<h3 align="center">✨ Experience Fashion Before You Buy It ✨</h3>
+
 <p align="center">
-
-# Experience Fashion Before You Buy It
-
-A modern AI-powered fashion ecommerce platform where users can browse premium fashion collections and virtually try on outfits before purchasing.
-
+LUXEVTON is a premium AI-powered fashion ecommerce platform that allows users to browse luxury fashion collections and experience realistic AI Virtual Try-On before making a purchase.
 </p>
 
 ---
 
-# 📌 Project Overview
+# 📌 About The Project
 
-LUXEVTON is a premium AI-powered fashion ecommerce platform inspired by leading Pakistani clothing brands.
+LUXEVTON is a modern AI-powered fashion ecommerce website inspired by leading Pakistani fashion brands.
 
-The platform provides customers with a modern shopping experience by combining Artificial Intelligence with ecommerce, allowing users to:
+The platform combines **Artificial Intelligence** with a premium shopping experience, allowing customers to virtually try on outfits before purchasing them.
 
-- Browse Men, Women and Kids collections
-- Experience AI Virtual Try-On
-- Add products to cart
-- Save favourite products
-- Manage wishlist
-- Place orders easily
-- Enjoy a premium responsive shopping interface
+The website includes collections for **Men**, **Women**, and **Kids**, along with a responsive design, shopping cart, wishlist, WhatsApp ordering, email notifications, and a realistic AI Virtual Try-On experience.
 
 ---
 
 # ✨ Features
 
 - 🤖 AI Virtual Try-On
-- 👔 Men Collection
-- 👗 Women Collection
-- 🧒 Kids Collection
+- 👔 Men Collections
+- 👗 Women Collections
+- 🧒 Kids Collections
 - 🛒 Shopping Cart
 - ❤️ Wishlist
-- 🌙 Dark / Light Theme
+- 🌙 Dark / Light Mode
 - 💬 WhatsApp Order Integration
 - 📩 Email Order Notifications
-- 📱 Fully Responsive UI
-- ⚡ Smooth Animations
-- 🎨 Premium Luxury Design
+- 📱 Fully Responsive Design
+- 🎨 Premium Luxury User Interface
+- ⚡ Smooth Animations & Transitions
 
 ---
 
-# 🛠 Technologies Used
+# 🛠 Tech Stack
 
 ## Frontend
 
 - React.js
 - Vite
 - Tailwind CSS
-- Framer Motion
 - React Router DOM
+- Framer Motion
 
 ## Backend
 
@@ -77,49 +69,49 @@ The platform provides customers with a modern shopping experience by combining A
 
 ## 🏠 Homepage
 
-![Homepage](./screenshots/Homepage1.jpg)
+![Homepage](./screenshots/Homepage1.jpeg)
 
 ---
 
-## 🏠 Hero Section
+## 🎯 Hero Section
 
-![Hero](./screenshots/Homepage2.jpg)
-
----
-
-## 👔 Men's Collection
-
-![Men Collection](./screenshots/Men-Collections.jpg)
+![Hero Section](./screenshots/Homepage2.jpeg)
 
 ---
 
-## 👗 Women's Collection
+## 👔 Men's Collections
 
-![Women Collection](./screenshots/Women-Collections.jpg)
+![Men Collections](./screenshots/Men-Collections.jpeg)
 
 ---
 
-## 🧒 Kids Collection
+## 👗 Women's Collections
 
-![Kids Collection](./screenshots/kids-Collection.jpg)
+![Women Collections](./screenshots/Women-Collections.jpeg)
+
+---
+
+## 🧒 Kids Collections
+
+![Kids Collections](./screenshots/kids-Collection.jpeg)
 
 ---
 
 ## 🛒 Shopping Cart
 
-![Shopping Cart](./screenshots/add-to-cart.jpg)
+![Shopping Cart](./screenshots/add-to-cart.jpeg)
 
 ---
 
 ## ❤️ Wishlist
 
-![Wishlist](./screenshots/wishlist.jpg)
+![Wishlist](./screenshots/wishlist.jpeg)
 
 ---
 
 ## 💳 Checkout
 
-![Checkout](./screenshots/checkout.jpg)
+![Checkout](./screenshots/checkout.jpeg)
 
 ---
 
@@ -127,31 +119,33 @@ The platform provides customers with a modern shopping experience by combining A
 
 ### Result 1
 
-![Result 1](./screenshots/result1.jpg)
+![Result 1](./screenshots/result1.jpeg)
 
 ---
 
 ### Result 2
 
-![Result 2](./screenshots/result2.jpg)
+![Result 2](./screenshots/result2.jpeg)
 
 ---
 
 ### Result 3
 
-![Result 3](./screenshots/result3.jpg)
+![Result 3](./screenshots/result3.jpeg)
 
 ---
 
-# 🚀 Installation
+# 🚀 Getting Started
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Ahmad-tech11/luxevton-ai-virtual-tryon.git
 ```
 
-## Frontend
+---
+
+## Install Frontend
 
 ```bash
 cd client
@@ -159,7 +153,9 @@ npm install
 npm run dev
 ```
 
-## Backend
+---
+
+## Install Backend
 
 ```bash
 cd server
@@ -171,28 +167,50 @@ npm run dev
 
 # 📂 Project Structure
 
-```
-LUXEVTON
+```text
+LUXEVTON/
 │
-├── client
-├── server
-├── screenshots
+├── client/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── uploads/
+│   └── package.json
+│
+├── screenshots/
+│   ├── Homepage1.jpeg
+│   ├── Homepage2.jpeg
+│   ├── Men-Collections.jpeg
+│   ├── Women-Collections.jpeg
+│   ├── kids-Collection.jpeg
+│   ├── add-to-cart.jpeg
+│   ├── wishlist.jpeg
+│   ├── checkout.jpeg
+│   ├── result1.jpeg
+│   ├── result2.jpeg
+│   └── result3.jpeg
+│
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-# 🚀 Future Improvements
+# 🎯 Future Improvements
 
-- AI Size Recommendation
-- Personalized Outfit Suggestions
-- AI Fashion Assistant
-- Secure Payment Gateway
-- Mobile Application
-- Order Tracking
-- Product Reviews
-- AI Fashion Recommendation Engine
+- 👕 AI Size Recommendation
+- 🤖 AI Fashion Assistant
+- 🎨 Personalized Outfit Suggestions
+- 💳 Payment Gateway Integration
+- 📦 Order Tracking
+- ⭐ Product Reviews & Ratings
+- 📱 Mobile Application
+- 🧠 AI Fashion Recommendation System
 
 ---
 
@@ -200,14 +218,26 @@ LUXEVTON
 
 **Muhammad Ahmad**
 
-Computer Science Student
+🎓 Computer Science Student
 
-COMSATS University Islamabad, Sahiwal Campus
+🏫 COMSATS University Islamabad, Sahiwal Campus
 
 ---
 
 # ⭐ Support
 
-If you like this project, please consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
 
-Thank you for your support!
+Your support motivates me to build more innovative AI-powered applications.
+
+---
+
+# 📬 Contact
+
+If you'd like to collaborate, provide feedback, or discuss this project, feel free to connect with me through **GitHub** or **LinkedIn**.
+
+---
+
+<p align="center">
+Made with ❤️ using React, Node.js, MongoDB and Artificial Intelligence.
+</p>
