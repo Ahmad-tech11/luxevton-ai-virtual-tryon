@@ -1,0 +1,387 @@
+{
+  "version": "6.0.2",
+  "api_prefix": "/gradio_api",
+  "mode": "blocks",
+  "app_id": 6756490712481862000,
+  "dev_mode": false,
+  "vibe_mode": false,
+  "analytics_enabled": true,
+  "components": [
+    {
+      "id": 1,
+      "type": "sidebar",
+      "props": {
+        "open": true,
+        "visible": true,
+        "width": 320,
+        "position": "left",
+        "preserved_by_key": [],
+        "name": "sidebar"
+      },
+      "skip_api": true,
+      "component_class_id": "48a5ac7214116e6fcbf0be2b274a943fccf725c1fe67bfe66e589947a29fb58d",
+      "key": null
+    },
+    {
+      "id": 2,
+      "type": "markdown",
+      "props": {
+        "value": "# Inference Provider",
+        "show_label": false,
+        "rtl": false,
+        "latex_delimiters": [
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ],
+        "visible": true,
+        "elem_classes": [],
+        "preserved_by_key": [
+          "value"
+        ],
+        "sanitize_html": true,
+        "line_breaks": false,
+        "header_links": false,
+        "container": false,
+        "padding": false,
+        "name": "markdown",
+        "_selectable": false
+      },
+      "skip_api": false,
+      "component_class_id": "927e99ba5dda4bcd0dfe596d4d0cecdc2e0b41e7e95071a05f96ae3971390ed6",
+      "key": null,
+      "api_info": {
+        "type": "string"
+      },
+      "api_info_as_input": {
+        "type": "string"
+      },
+      "api_info_as_output": {
+        "type": "string"
+      },
+      "example_inputs": "# Hello!"
+    },
+    {
+      "id": 3,
+      "type": "markdown",
+      "props": {
+        "value": "This Space showcases the ovi054/virtual-tryon-kontext-lora model, served by the fal-ai API. Sign in with your Hugging Face account to use this API.",
+        "show_label": false,
+        "rtl": false,
+        "latex_delimiters": [
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ],
+        "visible": true,
+        "elem_classes": [],
+        "preserved_by_key": [
+          "value"
+        ],
+        "sanitize_html": true,
+        "line_breaks": false,
+        "header_links": false,
+        "container": false,
+        "padding": false,
+        "name": "markdown",
+        "_selectable": false
+      },
+      "skip_api": false,
+      "component_class_id": "927e99ba5dda4bcd0dfe596d4d0cecdc2e0b41e7e95071a05f96ae3971390ed6",
+      "key": null,
+      "api_info": {
+        "type": "string"
+      },
+      "api_info_as_input": {
+        "type": "string"
+      },
+      "api_info_as_output": {
+        "type": "string"
+      },
+      "example_inputs": "# Hello!"
+    },
+    {
+      "id": 4,
+      "type": "button",
+      "props": {
+        "value": "Sign in",
+        "logout_value": "Logout ({})",
+        "variant": "huggingface",
+        "size": "lg",
+        "icon": {
+          "path": "/usr/local/lib/python3.10/site-packages/gradio/icons/huggingface-logo.svg",
+          "url": "https://manvithnnnnn-ovi054-virtual-tryon-kontext-lora.hf.space/gradio_api/file=/usr/local/lib/python3.10/site-packages/gradio/icons/huggingface-logo.svg",
+          "size": null,
+          "orig_name": null,
+          "mime_type": null,
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "visible": true,
+        "interactive": true,
+        "elem_classes": [],
+        "preserved_by_key": [
+          "value"
+        ],
+        "name": "button",
+        "_selectable": false
+      },
+      "skip_api": true,
+      "component_class_id": "c3637bb80ffe0b4e792a6e348a8a7ffeed5ac4d21660cbd75b8cbf842645c8fe",
+      "key": null
+    },
+    {
+      "id": 6,
+      "type": "column",
+      "props": {
+        "scale": 1,
+        "min_width": 320,
+        "variant": "default",
+        "visible": true,
+        "show_progress": true,
+        "preserved_by_key": [],
+        "name": "column"
+      },
+      "skip_api": true,
+      "component_class_id": "2936b1d11eae2288921900031596f1dda70bc86ea3912baac685b76d520ed450",
+      "key": null
+    }
+  ],
+  "css": null,
+  "connect_heartbeat": false,
+  "js": null,
+  "head": null,
+  "title": "Gradio",
+  "space_id": "ManvithNNNNN/ovi054-virtual-tryon-kontext-lora",
+  "enable_queue": true,
+  "show_error": false,
+  "footer_links": [
+    "api",
+    "gradio",
+    "settings"
+  ],
+  "is_colab": false,
+  "max_file_size": null,
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+  ],
+  "theme": "default",
+  "protocol": "sse_v3",
+  "body_css": {
+    "body_background_fill": "white",
+    "body_text_color": "#27272a",
+    "body_background_fill_dark": "#0f0f11",
+    "body_text_color_dark": "#f4f4f5"
+  },
+  "fill_height": true,
+  "fill_width": false,
+  "theme_hash": "2fa39f6df94156f7ef9d84370dbb2657d672827c75f082ac995879c32290c5ca",
+  "pwa": true,
+  "pages": [
+    [
+      "",
+      "Home",
+      true
+    ]
+  ],
+  "page": {
+    "": {
+      "layout": {
+        "id": 0,
+        "children": [
+          {
+            "id": 1,
+            "children": [
+              {
+                "id": 2
+              },
+              {
+                "id": 3
+              },
+              {
+                "id": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "children": []
+          }
+        ]
+      },
+      "components": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "dependencies": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "mcp_server": false,
+  "i18n_translations": null,
+  "dependencies": [
+    {
+      "id": 0,
+      "targets": [
+        [
+          4,
+          "click"
+        ]
+      ],
+      "inputs": [
+        4
+      ],
+      "outputs": [],
+      "backend_fn": false,
+      "js": "\n(buttonValue) => {\n    uri = buttonValue === \"Sign in\" ? '/login/huggingface?_target_url=/' : '/logout?_target_url=/';\n    window.parent?.postMessage({ type: \"SET_SCROLLING\", enabled: true }, \"*\");\n    setTimeout(() => {\n        window.location.assign(uri + window.location.search);\n    }, 500);\n}\n",
+      "queue": false,
+      "api_name": "js_fn",
+      "api_description": null,
+      "scroll_to_output": false,
+      "show_progress": "full",
+      "show_progress_on": null,
+      "batch": false,
+      "max_batch_size": 4,
+      "cancels": [],
+      "types": {
+        "generator": false,
+        "cancel": false
+      },
+      "collects_event_data": false,
+      "trigger_after": null,
+      "trigger_only_on_success": false,
+      "trigger_only_on_failure": false,
+      "trigger_mode": "once",
+      "api_visibility": "private",
+      "rendered_in": null,
+      "render_id": null,
+      "connection": "sse",
+      "time_limit": null,
+      "stream_every": 0.5,
+      "event_specific_args": null,
+      "component_prop_inputs": [],
+      "js_implementation": null
+    },
+    {
+      "id": 1,
+      "targets": [
+        [
+          5,
+          "load"
+        ]
+      ],
+      "inputs": [],
+      "outputs": [
+        6
+      ],
+      "backend_fn": true,
+      "js": null,
+      "queue": true,
+      "api_name": "apply",
+      "api_description": null,
+      "scroll_to_output": false,
+      "show_progress": "full",
+      "show_progress_on": null,
+      "batch": false,
+      "max_batch_size": 4,
+      "cancels": [],
+      "types": {
+        "generator": false,
+        "cancel": false
+      },
+      "collects_event_data": false,
+      "trigger_after": null,
+      "trigger_only_on_success": false,
+      "trigger_only_on_failure": false,
+      "trigger_mode": "always_last",
+      "api_visibility": "undocumented",
+      "rendered_in": null,
+      "render_id": 0,
+      "connection": "sse",
+      "time_limit": null,
+      "stream_every": 0.5,
+      "event_specific_args": null,
+      "component_prop_inputs": [],
+      "js_implementation": null
+    },
+    {
+      "id": 2,
+      "targets": [
+        [
+          null,
+          "load"
+        ]
+      ],
+      "inputs": [],
+      "outputs": [
+        4
+      ],
+      "backend_fn": true,
+      "js": null,
+      "queue": true,
+      "api_name": "_check_login_status",
+      "api_description": null,
+      "scroll_to_output": false,
+      "show_progress": "full",
+      "show_progress_on": null,
+      "batch": false,
+      "max_batch_size": 4,
+      "cancels": [],
+      "types": {
+        "generator": false,
+        "cancel": false
+      },
+      "collects_event_data": false,
+      "trigger_after": null,
+      "trigger_only_on_success": false,
+      "trigger_only_on_failure": false,
+      "trigger_mode": "once",
+      "api_visibility": "public",
+      "rendered_in": null,
+      "render_id": null,
+      "connection": "sse",
+      "time_limit": null,
+      "stream_every": 0.5,
+      "event_specific_args": null,
+      "component_prop_inputs": [],
+      "js_implementation": null
+    }
+  ],
+  "layout": {
+    "id": 0,
+    "children": [
+      {
+        "id": 1,
+        "children": [
+          {
+            "id": 2
+          },
+          {
+            "id": 3
+          },
+          {
+            "id": 4
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "children": []
+      }
+    ]
+  },
+  "username": null,
+  "root": "https://manvithnnnnn-ovi054-virtual-tryon-kontext-lora.hf.space"
+}

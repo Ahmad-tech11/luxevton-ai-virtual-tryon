@@ -1,0 +1,238 @@
+[
+  {
+    "id": 5,
+    "type": "image",
+    "props": {
+      "streamable": false,
+      "format": "webp",
+      "image_mode": "RGB",
+      "sources": [
+        "upload",
+        "clipboard"
+      ],
+      "type": "pil",
+      "label": "Person Image",
+      "show_label": true,
+      "buttons": [
+        "download",
+        "share",
+        "fullscreen"
+      ],
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "streaming": false,
+      "elem_classes": [
+        "contain"
+      ],
+      "preserved_by_key": [
+        "value"
+      ],
+      "webcam_options": {
+        "mirror": true,
+        "constraints": null
+      },
+      "watermark": {
+        "watermark": null,
+        "position": "bottom-right"
+      },
+      "name": "image",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 8,
+    "type": "image",
+    "props": {
+      "streamable": false,
+      "format": "webp",
+      "image_mode": "RGB",
+      "sources": [
+        "upload",
+        "clipboard"
+      ],
+      "type": "pil",
+      "label": "Garment Image",
+      "show_label": true,
+      "buttons": [
+        "download",
+        "share",
+        "fullscreen"
+      ],
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "streaming": false,
+      "elem_classes": [
+        "contain"
+      ],
+      "preserved_by_key": [
+        "value"
+      ],
+      "webcam_options": {
+        "mirror": true,
+        "constraints": null
+      },
+      "watermark": {
+        "watermark": null,
+        "position": "bottom-right"
+      },
+      "name": "image",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 10,
+    "type": "dropdown",
+    "props": {
+      "choices": [
+        [
+          "tops",
+          "tops"
+        ],
+        [
+          "bottoms",
+          "bottoms"
+        ],
+        [
+          "one-pieces",
+          "one-pieces"
+        ]
+      ],
+      "value": "tops",
+      "type": "value",
+      "allow_custom_value": false,
+      "filterable": true,
+      "label": "Category",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "buttons": [],
+      "name": "dropdown",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 11,
+    "type": "dropdown",
+    "props": {
+      "choices": [
+        [
+          "model",
+          "model"
+        ],
+        [
+          "flat-lay",
+          "flat-lay"
+        ]
+      ],
+      "value": "model",
+      "type": "value",
+      "allow_custom_value": false,
+      "filterable": true,
+      "label": "Photo Type",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "buttons": [],
+      "name": "dropdown",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 19,
+    "type": "slider",
+    "props": {
+      "minimum": 10,
+      "maximum": 50,
+      "value": 50,
+      "step": 5,
+      "label": "Sampling Steps",
+      "info": "Higher = better quality, slower.",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "name": "slider",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 20,
+    "type": "slider",
+    "props": {
+      "minimum": 1,
+      "maximum": 3,
+      "value": 1.5,
+      "step": 0.1,
+      "label": "Guidance Scale",
+      "info": "How closely to follow the garment. 1.5 recommended.",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "name": "slider",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 21,
+    "type": "number",
+    "props": {
+      "value": 42,
+      "label": "Seed",
+      "info": "Random seed for reproducibility.",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "buttons": [],
+      "precision": 0,
+      "step": 1,
+      "name": "number",
+      "_selectable": false
+    }
+  },
+  {
+    "id": 22,
+    "type": "checkbox",
+    "props": {
+      "value": true,
+      "label": "Segmentation Free",
+      "info": "Preserves body features and allows unconstrained garment volume. Disable for tighter garment fitting.",
+      "show_label": true,
+      "container": true,
+      "min_width": 160,
+      "visible": true,
+      "elem_classes": [],
+      "preserved_by_key": [
+        "value"
+      ],
+      "buttons": [],
+      "name": "checkbox",
+      "_selectable": false
+    }
+  }
+]

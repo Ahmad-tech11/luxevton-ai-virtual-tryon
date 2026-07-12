@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-gray-900 bg-white dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white px-8 py-3 text-sm font-medium tracking-wider uppercase 
+           hover:bg-gray-800 transition-all duration-300 inline-flex items-center justify-center gap-2
+           dark:bg-white dark:text-black dark:hover:bg-gray-200;
+  }
+
+  .btn-outline {
+    @apply border border-black text-black px-8 py-3 text-sm font-medium tracking-wider uppercase 
+           hover:bg-black hover:text-white transition-all duration-300 inline-flex items-center justify-center gap-2
+           dark:border-gray-400 dark:text-gray-100 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:border-gray-700;
+  }
+
+  .btn-gold {
+    @apply bg-luxury-gold text-white px-8 py-3 text-sm font-medium tracking-wider uppercase 
+           hover:bg-yellow-700 transition-all duration-300 inline-flex items-center justify-center gap-2;
+  }
+
+  .btn-whatsapp {
+    @apply bg-[#25D366] text-white px-8 py-3 text-sm font-medium tracking-wider uppercase 
+           hover:bg-[#128C7E] transition-all duration-300 inline-flex items-center justify-center gap-2;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-medium text-center mb-2;
+  }
+
+  .section-subtitle {
+    @apply text-sm md:text-base text-gray-500 dark:text-gray-400 text-center tracking-wider uppercase mb-10;
+  }
+
+  .container-luxe {
+    @apply max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Dark mode category/collection buttons */
+  .category-btn {
+    @apply block h-full flex flex-col items-center justify-center py-8 px-4 
+           border-2 border-gray-100 bg-white text-center 
+           hover:border-black hover:shadow-lg transition-all duration-300
+           dark:border-gray-700 dark:bg-gray-800 dark:hover:border-gray-500;
+  }
+
+  .category-btn p {
+    @apply text-sm md:text-base font-semibold tracking-wider uppercase 
+           group-hover:text-luxury-gold transition-colors 
+           text-gray-900 dark:text-gray-100;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
