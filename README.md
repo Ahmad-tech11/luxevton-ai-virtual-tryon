@@ -236,8 +236,8 @@ Your support motivates me to build more innovative AI-powered applications.
 
 If you'd like to collaborate, provide feedback, or discuss this project, feel free to connect with me.
 
-- **GitHub:** :contentReference[oaicite:0]{index=0}
-- **LinkedIn:** :contentReference[oaicite:1]{index=1}
+- **GitHub:** [Ahmad-tech11](https://github.com/Ahmad-tech11)
+- **LinkedIn:** [Muhammad Ahmad](https://www.linkedin.com/in/muhammad-ahmad-a6786a252/)
 ---
 
 <p align="center">
