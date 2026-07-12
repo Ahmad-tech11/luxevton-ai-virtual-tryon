@@ -1,20 +1,32 @@
 # 👔 LUXEVTON – AI Virtual Try-On Fashion Ecommerce
 
 <p align="center">
-  <strong>Experience Fashion Before You Buy It.</strong>
+  <img src="./screenshots/Homepage2.jpg" width="100%" alt="LUXEVTON Banner">
 </p>
 
 <p align="center">
-A premium AI-powered fashion ecommerce platform that allows customers to browse clothing collections and virtually try on outfits before purchasing.
+
+# Experience Fashion Before You Buy It
+
+A modern AI-powered fashion ecommerce platform where users can browse premium fashion collections and virtually try on outfits before purchasing.
+
 </p>
 
 ---
 
 # 📌 Project Overview
 
-LUXEVTON is a modern AI-powered fashion ecommerce platform inspired by premium Pakistani clothing brands. The platform combines Artificial Intelligence with a luxury online shopping experience, allowing customers to explore Men, Women, and Kids collections while using an AI Virtual Try-On feature to visualize outfits before making a purchase.
+LUXEVTON is a premium AI-powered fashion ecommerce platform inspired by leading Pakistani clothing brands.
 
-The project focuses on providing an elegant user interface, responsive design, realistic AI-powered try-on experience, and a smooth ecommerce workflow.
+The platform provides customers with a modern shopping experience by combining Artificial Intelligence with ecommerce, allowing users to:
+
+- Browse Men, Women and Kids collections
+- Experience AI Virtual Try-On
+- Add products to cart
+- Save favourite products
+- Manage wishlist
+- Place orders easily
+- Enjoy a premium responsive shopping interface
 
 ---
 
@@ -29,10 +41,9 @@ The project focuses on providing an elegant user interface, responsive design, r
 - 🌙 Dark / Light Theme
 - 💬 WhatsApp Order Integration
 - 📩 Email Order Notifications
-- 📊 Recently Viewed Products
-- 📱 Fully Responsive Design
-- 🎨 Premium Luxury UI
-- ⚡ Smooth Animations & Transitions
+- 📱 Fully Responsive UI
+- ⚡ Smooth Animations
+- 🎨 Premium Luxury Design
 
 ---
 
@@ -54,9 +65,9 @@ The project focuses on providing an elegant user interface, responsive design, r
 - Nodemailer
 - Multer
 
-## Artificial Intelligence
+## AI
 
-- AI Virtual Try-On Integration
+- AI Virtual Try-On
 - Image Processing
 - Computer Vision
 
@@ -66,51 +77,49 @@ The project focuses on providing an elegant user interface, responsive design, r
 
 ## 🏠 Homepage
 
-### Homepage
-
-![Homepage](screenshots/Homepage1.jpg)
+![Homepage](./screenshots/Homepage1.jpg)
 
 ---
 
-### Hero Section
+## 🏠 Hero Section
 
-![Hero](screenshots/Homepage2.jpg)
+![Hero](./screenshots/Homepage2.jpg)
 
 ---
 
 ## 👔 Men's Collection
 
-![Men Collections](screenshots/Men-Collections.jpg)
+![Men Collection](./screenshots/Men-Collections.jpg)
 
 ---
 
 ## 👗 Women's Collection
 
-![Women Collections](screenshots/Women-Collections.jpg)
+![Women Collection](./screenshots/Women-Collections.jpg)
 
 ---
 
 ## 🧒 Kids Collection
 
-![Kids Collection](screenshots/kids-Collection.jpg)
+![Kids Collection](./screenshots/kids-Collection.jpg)
 
 ---
 
 ## 🛒 Shopping Cart
 
-![Shopping Cart](screenshots/add-to-cart.jpg)
+![Shopping Cart](./screenshots/add-to-cart.jpg)
 
 ---
 
 ## ❤️ Wishlist
 
-![Wishlist](screenshots/wishlist.jpg)
+![Wishlist](./screenshots/wishlist.jpg)
 
 ---
 
 ## 💳 Checkout
 
-![Checkout](screenshots/checkout.jpg)
+![Checkout](./screenshots/checkout.jpg)
 
 ---
 
@@ -118,19 +127,19 @@ The project focuses on providing an elegant user interface, responsive design, r
 
 ### Result 1
 
-![Result 1](screenshots/result1.jpg)
+![Result 1](./screenshots/result1.jpg)
 
 ---
 
 ### Result 2
 
-![Result 2](screenshots/result2.jpg)
+![Result 2](./screenshots/result2.jpg)
 
 ---
 
 ### Result 3
 
-![Result 3](screenshots/result3.jpg)
+![Result 3](./screenshots/result3.jpg)
 
 ---
 
@@ -139,12 +148,10 @@ The project focuses on providing an elegant user interface, responsive design, r
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/luxevton-ai-virtual-tryon.git
+git clone https://github.com/Ahmad-tech11/luxevton-ai-virtual-tryon.git
 ```
 
----
-
-## Frontend Setup
+## Frontend
 
 ```bash
 cd client
@@ -152,9 +159,7 @@ npm install
 npm run dev
 ```
 
----
-
-## Backend Setup
+## Backend
 
 ```bash
 cd server
@@ -164,51 +169,21 @@ npm run dev
 
 ---
 
-# ⚙ Environment Variables
-
-Create a `.env` file inside the **server** directory.
-
-```env
-PORT=5000
-
-MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
-
-EMAIL_USER=YOUR_EMAIL
-
-EMAIL_PASS=YOUR_EMAIL_APP_PASSWORD
-
-CLIENT_URL=http://localhost:5173
-```
-
----
-
 # 📂 Project Structure
 
 ```
-LUXEVTON/
-
-├── client/
-│   ├── public/
-│   ├── src/
-│   └── package.json
+LUXEVTON
 │
-├── server/
-│   ├── src/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── package.json
-│
-├── screenshots/
-│
+├── client
+├── server
+├── screenshots
 ├── README.md
-│
 └── .gitignore
 ```
 
 ---
 
-# 🎯 Future Enhancements
+# 🚀 Future Improvements
 
 - AI Size Recommendation
 - Personalized Outfit Suggestions
@@ -216,8 +191,8 @@ LUXEVTON/
 - Secure Payment Gateway
 - Mobile Application
 - Order Tracking
-- Product Reviews & Ratings
-- AI-Based Fashion Recommendations
+- Product Reviews
+- AI Fashion Recommendation Engine
 
 ---
 
@@ -233,12 +208,6 @@ COMSATS University Islamabad, Sahiwal Campus
 
 # ⭐ Support
 
-If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
+If you like this project, please consider giving it a ⭐ on GitHub.
 
-It motivates me to continue building innovative AI-powered applications.
-
----
-
-## 📬 Contact
-
-For any suggestions or collaboration opportunities, feel free to connect with me on LinkedIn or GitHub.
+Thank you for your support!
